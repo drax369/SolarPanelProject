@@ -55,3 +55,21 @@ This tool supports rapid rooftop screening for solar feasibility at neighbourhoo
 ## Acknowledgements
 
 This project builds on the YOLOv8 ecosystem and open-source work on solar panel mapping from aerial and satellite imagery.[web:288][web:294]
+
+# Project Running Method
+# To run everything step by step from solar_project do:
+# 1) YOLO prediction
+python yolo_detect_predict.py --source images --weights weights/best.pt
+
+# 2) Save detections to JSON
+python save_json.py
+
+# 3) Add buffer
+python run_buffer_postprocess.py   # or buffer_process.py
+
+# 4) Aggregate by site
+python aggregate_sites.py
+
+# 5) Export Excel
+python export_to_excel.py
+
