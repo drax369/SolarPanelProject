@@ -1,0 +1,9 @@
+[
+  {
+    "image": "sample_6.png",
+    "has_solar": true,
+    "panel_area_sqft": 385.5874803487677,
+    "buffer_sqft": 1200.0,
+    "qc_status": "VERIFIABLE"
+  }
+]
