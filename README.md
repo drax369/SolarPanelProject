@@ -66,6 +66,7 @@ python save_json.py
 
 # 3) Add buffer
 python run_buffer_postprocess.py   # or buffer_process.py
+also python buffer_logic.py
 
 # 4) Aggregate by site
 python aggregate_sites.py
