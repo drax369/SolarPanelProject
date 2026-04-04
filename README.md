@@ -71,6 +71,6 @@ also python buffer_logic.py
 ## 4) Aggregate by site
 python aggregate_sites.py
 
-# 5) Export Excel
+## 5) Export Excel
 python export_to_excel.py
 
